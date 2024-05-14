@@ -3,7 +3,7 @@
 ## **Meeting notes:**
 
 **May 14th 2024: Dan Otis and Enrique Montes**
-- Daily and 7-day 1 km MODIS and VIIRS data is available on the [project ERDDAP server]([url](http://131.247.136.200:8080/erddap/info/index.html?page=1&itemsPerPage=1000)) for:
+- Daily and 7-day 1 km MODIS and VIIRS data is available on the [project ERDDAP server](http://131.247.136.200:8080/erddap/info/index.html?page=1&itemsPerPage=1000) for:
   - Aqua chlorophyll-a
   - nFLH
   - turbidity (Rrs 667)
