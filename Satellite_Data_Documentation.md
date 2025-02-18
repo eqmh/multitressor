@@ -18,7 +18,7 @@ http://131.247.136.200:8080/erddap/info/index.html
 Data are obtained from NASA's Ocean Biology Distributed Active Archive Center (OB-DAAC):  
 https://oceancolor.gsfc.nasa.gov/
 
-Data is ingested, composited, gridded and served via ERDDAP at USF  
+Data is ingested, composited to daily, weekly and monthly time intervals, gridded and served via ERDDAP at USF.
 
 Within each Ocean Color file, there are the following products:
 1. chlor_a (chlorophyll-a concentration in mg m^-3) - proxy for phytoplankton biomass
@@ -62,6 +62,14 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_nwgom.graph
 
 9. VIIRS-SNPP Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82E to -73E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_seus.graph
+
+10. PACE-OCI OC AOP (incl. hyperspectral Rrs and nflh) 1-Day composite for South Florida (24N to 31N; -85E to -78.5E)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/pace_oc_aop_1d_sfl.graph
+ - These files contain remote sensing reflectance at all visible PACE-OCI bands and normalized fluorescence line height
+
+11. PACE-OCI Ocean Color BGC 1-Day composite for South Florida (24N to 31N; -85E to -78.5E)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/pace_oc_bgc_1d_sfl.graph
+ - These files contain chlorophyll-a concentration and phytoplankton carbon from PACE-OCI
 
 ### SEA SURFACE TEMPERAURE
 Sea surface temperature products come from two main sources:
