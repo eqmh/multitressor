@@ -9,15 +9,29 @@ USF has compiled several satellite-based datasets, including ocean color, sea su
 3. Biogeographic Seascapes: Served by NOAA Coastwatch
 4. Net Primary Productivity: From Oregon State University Ocean Productivity Lab  
 
-#### OCEAN COLOR
-Data are obtained from NASA's Ocean Biology Distributed Active Archive Center (OB-DAAC)  
-Data is ingested, composited, gridded and served via ERDDAP at USF  
-
 ERDDAP Link for all datasets:  
 http://131.247.136.200:8080/erddap/info/index.html
 
+### OCEAN COLOR
+Data are obtained from NASA's Ocean Biology Distributed Active Archive Center (OB-DAAC):  
+https://oceancolor.gsfc.nasa.gov/
 
+Data is ingested, composited, gridded and served via ERDDAP at USF  
 
-
-#### List of Satellite Data Products
+#### List of Ocean Color Data Products
 1. MODIS-Aqua 1-km Ocean Color for the Gulf of Mexico 
+
+
+
+### SEA SURFACE TEMPERAURE
+
+
+
+### BIOGEOGRAPHIC SEASCAPES
+
+
+
+
+
+
+#### NET PRIMARY PRODUCTIVITY
