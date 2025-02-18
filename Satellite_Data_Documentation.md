@@ -25,7 +25,7 @@ https://oceancolor.gsfc.nasa.gov/
 
 Data is ingested, composited to daily, weekly and monthly time intervals, gridded and served via ERDDAP at USF.
 
-Within each Ocean Color file, there are the following products:
+Within each Ocean Color file (MODIS-Aqua and VIIRS-SNPP), there are the following products:
 1. chlor_a (chlorophyll-a concentration in mg m^-3) - proxy for phytoplankton biomass
 2. chlor_a_clim (climatology of chlorophyll-a concentration based on data from 2003-2019 for MODIS-Aqua and 2013-2019 for VIIRS)
 3. chlor_a_anom (anomaly of chlorophyll-a concentration; chlor_a_clim subtracted from chlor_a)
@@ -67,6 +67,8 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_nwgom.graph
 
 9. VIIRS-SNPP Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82E to -73E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_seus.graph
+
+#### PACE-OCI files have a different file structure from MODIS and VIIRS. The Ocean Color product suite is further categorized into an "AOP" suite for Apparent Optical Properties (e.g. remote sensing reflectance) and a "BGC" product suite for derived geophysical parameters such as chlorophyll-a concentration. There is also and "IOP" product suite for Inherent Optical Properties (e.g. absorption and scattering). No IOP files are served by the USF ERDDAP server at this time, although they may be added later.
 
 10. PACE-OCI OC AOP (incl. hyperspectral Rrs and nflh) 1-Day composite for South Florida (24N to 31N; -85E to -78.5E)
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/pace_oc_aop_1d_sfl.graph
