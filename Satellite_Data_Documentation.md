@@ -95,7 +95,7 @@ ERDDAP Link: https://cwcgom.aoml.noaa.gov/erddap/griddap/noaa_aoml_seascapes_8da
 
 
 ### NET PRIMARY PRODUCTIVITY
-Net primary productivity products are calculated using the Vertically Generalized Productivity Model (VGPM) based on MODIS-Aqua data at 9-km spatial resolution (-90N to 90N; -180E to 180E)
-These products are from the Oregon State Ocean Productivity Lab (http://orca.science.oregonstate.edu/index.php)
+Net primary productivity products are calculated using the Vertically Generalized Productivity Model (VGPM) based on MODIS-Aqua data at 9-km spatial resolution (-90N to 90N; -180E to 180E)  
+These products are from the Oregon State Ocean Productivity Lab (http://orca.science.oregonstate.edu/index.php)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/moda_npp_mo_glob.graph
 
