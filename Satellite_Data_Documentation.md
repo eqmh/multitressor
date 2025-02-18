@@ -1,15 +1,15 @@
-### Satellite Data for FRESCA Project
+## Satellite Data for FRESCA Project
 
 Satellite-based datasets for the FRESCA project:
 USF has compiled several satellite-based datasets, including ocean color, sea surface temperature and biogeographic seascapes for waters around South Florida. A Github repository was created to share code among the project team. Details on data products along with links to data and the Github repository are given below.
 
 #### Data Types (details on each are given below):
 1. Ocean color: from MODIS-Aqua, VIIRS-SNPP and PACE-OCI sensors
-2. Sea Surface Temperature (SST): from Multi-scale Ultra-high Resolution (MUR) SST Analysis fv04.1
+2. Sea Surface Temperature (SST): from Multi-scale Ultra-high Resolution (MUR) SST Analysis fv04.1 and VIIRS-SNPP
 3. Biogeographic Seascapes: Based on MODIS-Aqua data and served by NOAA Coastwatch
 4. Net Primary Productivity: From Oregon State University Ocean Productivity Lab
 
-#### NOTE on MODIS-Aqua: MODIS-Aqua is at the end of its operational life and had exhibited degraded data quality since the end of 2022. While there have been data reprocessings to improve data quality issues, MODIS will be decommissioned at some point in 2026. We will continue to serve these products with reprocessed data as long as they are viable due to the long MODIS data record. Users should plan to transition to using products from VIIRS-SNPP and PACE-OCI. Please feel free to contact Dan Otis at USF with questions: dotis@usf.edu
+#### NOTE on MODIS-Aqua: MODIS-Aqua is at the end of its operational life and has exhibited degraded data quality since the end of 2022. While there have been data reprocessings bu OB-DAAC to improve data quality, MODIS will be decommissioned at some point in 2026. We will continue to serve these products with reprocessed data as long as they are available due to the long MODIS data record. Users should plan to transition to using products from VIIRS-SNPP and PACE-OCI. Please feel free to contact Dan Otis at USF with questions: dotis@usf.edu
 
 ERDDAP Link for all datasets:  
 http://131.247.136.200:8080/erddap/info/index.html
@@ -42,17 +42,26 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/moda_oc_7d_gom.graph
 2. MODIS-Aqua Ocean Color Monthly means for GOM  (18N to 31N; -98W to -78.5W)
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/moda_oc_mo_gom.graph
 
-3. MODIS-AQUA Ocean Color 1-Day composite for Florida (24N to 31N; -85W to -78.5W)
+3. MODIS-Aqua Ocean Color 1-Day composite for Florida (24N to 31N; -85W to -78.5W)
 ERDDAP Link: MODIS-AQUA Ocean Color 1-Day composite for Florida
 
 4. MODIS-Aqua Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82W to -73W)
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/moda_oc_7d_seus.graph
 
+5. VIIRS-SNPP Ocean Color 7-Day means for GOM (18N to 31N; -98W to -78.5W)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_gom.graph
 
+6. VIIRS-SNPP Ocean Color Monthly means for GOM  (18N to 31N; -98W to -78.5W)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_mo_gom.graph
 
+7. VIIRS-SNPP Ocean Color 1-Day composite for Florida (24N to 31N; -85W to -78.5W)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_fl.graph
 
+8. VIIRS-SNPP Ocean Color 1-Day composite for NW Gulf of Mexico (24N to 31N; -85W to -78.5W)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_nwgom.graph
 
-
+9. VIIRS-SNPP Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82W to -73W)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_seus.graph
 
 ### SEA SURFACE TEMPERAURE
 
