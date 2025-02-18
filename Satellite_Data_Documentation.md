@@ -36,31 +36,31 @@ Within each Ocean Color file, there are the following products:
 12. ABI_anom (anomaly of ABI; ABI_clim subtracted from ABI)
 
 #### List of Ocean Color Data Products
-1. MODIS-Aqua Ocean Color 7-Day means for GOM (18N to 31N; -98W to -78.5W)  
+1. MODIS-Aqua Ocean Color 7-Day means for GOM (18N to 31N; -98E to -78.5E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/moda_oc_7d_gom.graph
 
-2. MODIS-Aqua Ocean Color Monthly means for GOM  (18N to 31N; -98W to -78.5W)  
+2. MODIS-Aqua Ocean Color Monthly means for GOM  (18N to 31N; -98E to -78.5E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/moda_oc_mo_gom.graph
 
-3. MODIS-Aqua Ocean Color 1-Day composite for Florida (24N to 31N; -85W to -78.5W)  
+3. MODIS-Aqua Ocean Color 1-Day composite for Florida (24N to 31N; -85E to -78.5E)  
 ERDDAP Link: MODIS-AQUA Ocean Color 1-Day composite for Florida
 
-4. MODIS-Aqua Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82W to -73W)  
+4. MODIS-Aqua Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82E to -73E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/moda_oc_7d_seus.graph
 
-5. VIIRS-SNPP Ocean Color 7-Day means for GOM (18N to 31N; -98W to -78.5W)  
+5. VIIRS-SNPP Ocean Color 7-Day means for GOM (18N to 31N; -98E to -78.5E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_gom.graph
 
-6. VIIRS-SNPP Ocean Color Monthly means for GOM  (18N to 31N; -98W to -78.5W)  
+6. VIIRS-SNPP Ocean Color Monthly means for GOM  (18N to 31N; -98E to -78.5E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_mo_gom.graph
 
-7. VIIRS-SNPP Ocean Color 1-Day composite for Florida (24N to 31N; -85W to -78.5W)  
+7. VIIRS-SNPP Ocean Color 1-Day composite for Florida (24N to 31N; -85E to -78.5E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_fl.graph
 
-8. VIIRS-SNPP Ocean Color 1-Day composite for NW Gulf of Mexico (24N to 31N; -85W to -78.5W)  
+8. VIIRS-SNPP Ocean Color 1-Day composite for NW Gulf of Mexico (24N to 31N; -85E to -78.5E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_nwgom.graph
 
-9. VIIRS-SNPP Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82W to -73W)  
+9. VIIRS-SNPP Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82E to -73E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_seus.graph
 
 ### SEA SURFACE TEMPERAURE
@@ -72,24 +72,30 @@ Sea surface temperature products come from two main sources:
  - These products are obtained from the OB-DAAC and composited, gridded and served via ERDDAP similar to the Ocean Color products listed above
 
 #### List of SST Data Products
-1. 	Multi-scale Ultra-high Resolution (MUR) SST Analysis fv04.1, Global, 0.01°, 2002-present, Daily (-90N to 90N; -180W to 180W)
+1. 	Multi-scale Ultra-high Resolution (MUR) SST Analysis fv04.1, Global, 0.01°, 2002-present, Daily (-90N to 90N; -180E to 180E)
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/jplMURSST41.graph
 
-2. Multi-scale Ultra-high Resolution (MUR) SST Analysis Anomaly fv04.1, Global, 0.01°, 2002-present, Daily  
+2. Multi-scale Ultra-high Resolution (MUR) SST Analysis Anomaly fv04.1, Global, 0.01°, 2002-present, Daily (-90N to 90N; -180E to 180E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/jplMURSST41anom1day.graph
 
-3. VIIRS-SNPP Nighttime SST 7-Day mean for GOM  (24N to 31N; -85W to -78.5W)    
+3. VIIRS-SNPP Nighttime SST 7-Day mean for GOM  (24N to 31N; -85E to -78.5E)    
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_sstn_7d_gom.graph
 
-4. 	VIIRS-SNPP Nighttime SST 7-Day mean for SEUS (29N to 40.5N; -82W to -73W)  
+4. 	VIIRS-SNPP Nighttime SST 7-Day mean for SEUS (29N to 40.5N; -82E to -73E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_sstn_7d_seus.graph
 
 
-### BIOGEOGRAPHIC SEASCAPES
-Dynamic seascapes are classified using multivariate satellite data and describe basin and gyre scale features and seasonal boundary shifts. They are obtained from [NOAA's Coastwatch](https://cwcgom.aoml.noaa.gov/erddap/griddap/noaa_aoml_seascapes_8day.graph). A description of seascape classes can be found [HERE](https://shiny.marinebon.app/seascapes/classes.html).\n\nPlease feel free to contact us with questions:\n\nDr. Daniel Otis - [dotis@usf.edu]
+### DYNAIMIC BIOGEOGRAPHIC SEASCAPES
+Dynamic seascapes are classified using multivariate satellite data and describe basin and gyre scale features and seasonal boundary shifts. They are obtained from [NOAA's Coastwatch](https://cwcgom.aoml.noaa.gov/erddap/griddap/noaa_aoml_seascapes_8day.graph). A description of seascape classes can be found [HERE](https://shiny.marinebon.app/seascapes/classes.html).
+The seascapes served here are based on MODIS-Aqua data (-90N to 90N; -180E 180E)  
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/noaa_aoml_seascapes_8day.graph
 
-
-
+There is a version based on VIIRS-SNPP and Sentinel-3 OLCI data that is served by NOAA Coastwatch  
+ERDDAP Link: https://cwcgom.aoml.noaa.gov/erddap/griddap/noaa_aoml_seascapes_8day_viirs_olci.graph
 
 
 ### NET PRIMARY PRODUCTIVITY
+Net primary productivity products are calculated using the Vertically Generalized Productivity Model (VGPM) based on MODIS-Aqua data at 9-km spatial resolution (-90N to 90N; -180E to 180E)
+These products are from the Oregon State Ocean Productivity Lab (http://orca.science.oregonstate.edu/index.php)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/moda_npp_mo_glob.graph
+
