@@ -1,5 +1,7 @@
 ## Satellite Data for FRESCA Project
 
+Updated 2/18/2025  
+
 Satellite-based datasets for the FRESCA project:
 USF has compiled several satellite-based datasets, including ocean color, sea surface temperature and biogeographic seascapes for waters around South Florida. A Github repository was created to share code among the project team. Details on data products along with links to data and the Github repository are given below.
 
