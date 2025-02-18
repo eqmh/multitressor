@@ -85,7 +85,7 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_sstn_7d_gom.graph
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_sstn_7d_seus.graph
 
 
-### DYNAIMIC BIOGEOGRAPHIC SEASCAPES
+### DYNAMIC BIOGEOGRAPHIC SEASCAPES
 Dynamic seascapes are classified using multivariate satellite data and describe basin and gyre scale features and seasonal boundary shifts. They are obtained from [NOAA's Coastwatch](https://cwcgom.aoml.noaa.gov/erddap/griddap/noaa_aoml_seascapes_8day.graph). A description of seascape classes can be found [HERE](https://shiny.marinebon.app/seascapes/classes.html).
 The seascapes served here are based on MODIS-Aqua data (-90N to 90N; -180E 180E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/noaa_aoml_seascapes_8day.graph
