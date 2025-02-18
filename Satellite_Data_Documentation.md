@@ -68,7 +68,7 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_nwgom.graph
 9. VIIRS-SNPP Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82E to -73E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_seus.graph
 
-#### PACE-OCI files have a different file structure from MODIS and VIIRS. The Ocean Color product suite is further categorized into an "AOP" suite for Apparent Optical Properties (e.g. remote sensing reflectance) and a "BGC" product suite for derived geophysical parameters such as chlorophyll-a concentration. There is also and "IOP" product suite for Inherent Optical Properties (e.g. absorption and scattering). No IOP files are served by the USF ERDDAP server at this time, although they may be added later.
+#### PACE-OCI files have a different file structure from MODIS and VIIRS. The Ocean Color product suite is further categorized into an "AOP" suite for Apparent Optical Properties (e.g. remote sensing reflectance) and a "BGC" product suite for derived geophysical parameters such as chlorophyll-a concentration. There is also an "IOP" product suite for Inherent Optical Properties (e.g. absorption and scattering). No IOP files are served by the USF ERDDAP server at this time, although they may be added later.
 
 10. PACE-OCI OC AOP (incl. hyperspectral Rrs and nflh) 1-Day composite for South Florida (24N to 31N; -85E to -78.5E)
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/pace_oc_aop_1d_sfl.graph
