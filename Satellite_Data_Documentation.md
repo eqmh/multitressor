@@ -64,7 +64,25 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_nwgom.graph
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_seus.graph
 
 ### SEA SURFACE TEMPERAURE
+Sea surface temperature products come from two main sources:
+1. Multi-scale Ultra-high Resolution (MUR) SST Analysis fv04.1 (https://podaac.jpl.nasa.gov/dataset/MUR-JPL-L4-GLOB-v4.1)
+ - This is a global dataset produced as part of the Global High Resolution Sea Surface Temperature (GHRSST) project
+ - It is based on data from a large suite of sensors
+2. VIIRS-SNPP 1-km nighttime SST
+ - These products are obtained from the OB-DAAC and composited, gridded and served via ERDDAP similar to the Ocean Color products listed above
 
+#### List of SST Data Products
+1. 	Multi-scale Ultra-high Resolution (MUR) SST Analysis fv04.1, Global, 0.01°, 2002-present, Daily (-90N to 90N; -180W to 180W)
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/jplMURSST41.graph
+
+2. Multi-scale Ultra-high Resolution (MUR) SST Analysis Anomaly fv04.1, Global, 0.01°, 2002-present, Daily  
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/jplMURSST41anom1day.graph
+
+3. VIIRS-SNPP Nighttime SST 7-Day mean for GOM  (24N to 31N; -85W to -78.5W)    
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_sstn_7d_gom.graph
+
+4. 	VIIRS-SNPP Nighttime SST 7-Day mean for SEUS (29N to 40.5N; -82W to -73W)  
+ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_sstn_7d_seus.graph
 
 
 ### BIOGEOGRAPHIC SEASCAPES
