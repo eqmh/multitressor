@@ -86,10 +86,10 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_sstn_7d_seus.graph
 
 
 ### BIOGEOGRAPHIC SEASCAPES
+Dynamic seascapes are classified using multivariate satellite data and describe basin and gyre scale features and seasonal boundary shifts. They are obtained from [NOAA's Coastwatch](https://cwcgom.aoml.noaa.gov/erddap/griddap/noaa_aoml_seascapes_8day.graph). A description of seascape classes can be found [HERE](https://shiny.marinebon.app/seascapes/classes.html).\n\nPlease feel free to contact us with questions:\n\nDr. Daniel Otis - [dotis@usf.edu]
 
 
 
 
 
-
-#### NET PRIMARY PRODUCTIVITY
+### NET PRIMARY PRODUCTIVITY
