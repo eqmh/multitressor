@@ -78,7 +78,7 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/pace_oc_aop_1d_sfl.graph
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/pace_oc_bgc_1d_sfl.graph
  - These files contain chlorophyll-a concentration and phytoplankton carbon from PACE-OCI
 
-### SEA SURFACE TEMPERAURE
+### SEA SURFACE TEMPERATURE
 Sea surface temperature products come from two main sources:
 1. Multi-scale Ultra-high Resolution (MUR) SST Analysis fv04.1 (https://podaac.jpl.nasa.gov/dataset/MUR-JPL-L4-GLOB-v4.1)
  - This is a global dataset produced as part of the Global High Resolution Sea Surface Temperature (GHRSST) project
