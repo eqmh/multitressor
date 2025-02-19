@@ -14,7 +14,7 @@ https://github.com/eqmh/multitressor/tree/main
 3. Biogeographic Seascapes: Based on MODIS-Aqua data and served by NOAA Coastwatch
 4. Net Primary Productivity: From Oregon State University Ocean Productivity Lab
 
-#### NOTE on MODIS-Aqua: MODIS-Aqua is at the end of its operational life and has exhibited degraded data quality since the end of 2022. While there have been data reprocessings bu OB-DAAC to improve data quality, MODIS will be decommissioned at some point in 2026. We will continue to serve these products with reprocessed data as long as they are available due to the long MODIS data record. Users should plan to transition to using products from VIIRS-SNPP and PACE-OCI. Please feel free to contact Dan Otis at USF with questions: dotis@usf.edu
+#### NOTE on MODIS-Aqua: MODIS-Aqua is at the end of its operational life and has exhibited degraded data quality since the end of 2022. While there have been data reprocessings by OB-DAAC to improve data quality, MODIS will be decommissioned at some point in 2026. We will continue to serve these products with reprocessed data as long as they are available due to the long MODIS data record. Users should plan to transition to using products from VIIRS-SNPP and PACE-OCI. Please feel free to contact Dan Otis at USF with questions: dotis@usf.edu
 
 ERDDAP Link for all datasets:  
 http://131.247.136.200:8080/erddap/info/index.html
