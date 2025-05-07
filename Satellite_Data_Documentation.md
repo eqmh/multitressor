@@ -1,6 +1,6 @@
 ## Satellite Data for FRESCA Project
 
-Updated 2/18/2025  
+Updated 5/7/2025  
 
 Satellite-based datasets for the FRESCA project:
 USF has compiled several satellite-based datasets, including ocean color, sea surface temperature and biogeographic seascapes for waters around South Florida. A Github repository was created to share code among the project team. Details on data products along with links to data and the Github repository are given below.
@@ -9,7 +9,7 @@ Github repo:
 https://github.com/eqmh/multitressor/tree/main
 
 #### Data Types (details on each are given below):
-1. Ocean color: from MODIS-Aqua, VIIRS-SNPP and PACE-OCI sensors
+1. Ocean color: from MODIS-Aqua, VIIRS-SNPP, Sentinel-3 OLCI PACE-OCI sensors
 2. Sea Surface Temperature (SST): from Multi-scale Ultra-high Resolution (MUR) SST Analysis fv04.1 and VIIRS-SNPP
 3. Biogeographic Seascapes: Based on MODIS-Aqua data and served by NOAA Coastwatch
 4. Net Primary Productivity: From Oregon State University Ocean Productivity Lab
@@ -68,15 +68,20 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_nwgom.graph
 9. VIIRS-SNPP Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82E to -73E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_seus.graph
 
+10. Sentinel-3A OLCI Ocean Color 1-Day Composite for the eastern Gulf of Mexico (24N to 31N; -89E to -78.5E)
+
+11. Sentinel-3B OLCI Ocean Color 1-Day Composite for the eastern Gulf of Mexico (24N to 31N; -89E to -78.5E)
+
 #### PACE-OCI files have a different file structure from MODIS and VIIRS. The Ocean Color product suite is further categorized into an "AOP" suite for Apparent Optical Properties (e.g. remote sensing reflectance) and a "BGC" product suite for derived geophysical parameters such as chlorophyll-a concentration. There is also an "IOP" product suite for Inherent Optical Properties (e.g. absorption and scattering). No IOP files are served by the USF ERDDAP server at this time, although they may be added later.
 
-10. PACE-OCI OC AOP (incl. hyperspectral Rrs and nflh) 1-Day composite for South Florida (24N to 31N; -85E to -78.5E)
+12. PACE-OCI OC AOP (incl. hyperspectral Rrs and nflh) 1-Day composite for South Florida (24N to 31N; -85E to -78.5E)
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/pace_oc_aop_1d_sfl.graph
  - These files contain remote sensing reflectance at all visible PACE-OCI bands and normalized fluorescence line height
 
-11. PACE-OCI Ocean Color BGC 1-Day composite for South Florida (24N to 31N; -85E to -78.5E)
+13. PACE-OCI Ocean Color BGC 1-Day composite for South Florida (24N to 31N; -85E to -78.5E)
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/pace_oc_bgc_1d_sfl.graph
  - These files contain chlorophyll-a concentration and phytoplankton carbon from PACE-OCI
+
 
 ### SEA SURFACE TEMPERATURE
 Sea surface temperature products come from two main sources:
