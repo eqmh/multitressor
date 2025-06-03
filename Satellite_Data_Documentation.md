@@ -68,10 +68,11 @@ ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_1d_nwgom.graph
 9. VIIRS-SNPP Ocean Color 7-Day means for the Southeast US (29N to 40.5N; -82E to -73E)  
 ERDDAP Link: http://131.247.136.200:8080/erddap/griddap/vsnpp_oc_7d_seus.graph
 
-10. Sentinel-3A OLCI Ocean Color 1-Day Composite for South Florida(24N to 26.5N; -83.25E to -79.25E)
+#### Sentinel-3A and -3B files contain Chlorophyll-a, Kd_490 and Rrs_665 products along with climatologies and anomalies for each
+10. Sentinel-3A OLCI Ocean Color 1-Day Composite for South Florida(24N to 26.25N; -83.25E to -79.25E)
 ERDDAP Link: https://erddap.marine.usf.edu/erddap/griddap/s3a_olci_1d_sfl.graph
 
-12. Sentinel-3B OLCI Ocean Color 1-Day Composite for South Florida(24N to 26.5N; -83.25E to -79.25E)
+11. Sentinel-3B OLCI Ocean Color 1-Day Composite for South Florida(24N to 26.25N; -83.25E to -79.25E)
 ERDDAP Link: https://erddap.marine.usf.edu/erddap/griddap/s3b_olci_1d_sfl.graph
 
 #### PACE-OCI files have a different file structure from MODIS and VIIRS. The Ocean Color product suite is further categorized into an "AOP" suite for Apparent Optical Properties (e.g. remote sensing reflectance) and a "BGC" product suite for derived geophysical parameters such as chlorophyll-a concentration. There is also an "IOP" product suite for Inherent Optical Properties (e.g. absorption and scattering). No IOP files are served by the USF ERDDAP server at this time, although they may be added later.
