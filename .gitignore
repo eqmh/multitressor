@@ -1,0 +1,63 @@
+# MATLAB & general IDE files
+*.asv
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+*.log
+
+# MATLAB binary/mex files
+*.mex*
+*.mexa64
+*.mexglx
+*.mexw32
+*.mexw64
+
+# MATLAB toolbox/package files
+*.mltbx
+
+# MATLAB workspace and MAT-files (uncomment if you want to ignore large MAT files)
+# *.mat
+
+# MATLAB Editor autosave/temp files
+*.autosave
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+*.code-workspace
+
+# Optional: ignore data/ and figures/ if you don't want to track large outputs
+# Uncomment to ignore these folders
+# /data/
+# /figures/
+
+# KML/editor swap files
+*.kmz
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.kmz
+
+# Folders to ignore
+/CREMP_CSV_Files/
+
+# End of file
