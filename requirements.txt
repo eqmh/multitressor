@@ -1,0 +1,12 @@
+# Requirements for conda env 'corals'
+# Minimal packages provided by the user
+# Recommended: use conda-forge channel: `conda install -c conda-forge --file requirements.txt`
+
+pandas
+numpy
+matplotlib
+seaborn
+geopandas
+folium
+jupyterlab
+ipyleaflet
