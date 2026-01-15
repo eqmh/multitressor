@@ -10,3 +10,4 @@ geopandas
 folium
 jupyterlab
 ipyleaflet
+geodatasets
