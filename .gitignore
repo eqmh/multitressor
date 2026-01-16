@@ -59,5 +59,6 @@ Thumbs.db
 
 # Folders to ignore
 /CREMP_CSV_Files/
+/DTCREMP_CSV_Files
 
 # End of file
