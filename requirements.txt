@@ -11,3 +11,7 @@ folium
 jupyterlab
 ipyleaflet
 geodatasets
+xarray
+netCDF4
+dask
+requests

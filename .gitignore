@@ -56,6 +56,9 @@ Thumbs.db
 *.json
 *.xml
 *.kmz
+*.nc
+*.tif
+*.tiff
 
 # Folders to ignore
 /CREMP_CSV_Files/
