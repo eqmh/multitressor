@@ -15,3 +15,4 @@ xarray
 netCDF4
 dask
 requests
+pymannkendall
